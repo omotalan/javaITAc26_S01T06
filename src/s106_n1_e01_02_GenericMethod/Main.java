@@ -1,5 +1,6 @@
 package s106_n1_e01_02_GenericMethod;
 
+import static s106_n1_e01_02_GenericMethod.GenericMethods.printAll;
 import static s106_n1_e01_02_GenericMethod.GenericMethods.printElements;
 
 public class Main {
@@ -36,6 +37,6 @@ public class Main {
 
         printElements(el2, person.toString(), intUno);
 
-        printElements(intUno, person.toString(), el2);
+        printAll(intUno, person.toString(), el2);
     }
 }

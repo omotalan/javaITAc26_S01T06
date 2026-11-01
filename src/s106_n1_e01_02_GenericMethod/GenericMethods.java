@@ -8,4 +8,14 @@ public class GenericMethods {
         System.out.println("Element 3: " + el3);
         System.out.println("----------------------------------------");
     }
+
+    @SafeVarargs
+    public static <T> void printAll(T... items) {
+        int counter = 0;
+        for (T item : items) {
+            counter++;
+            System.out.println("Element" + counter + " : " + item);
+        }
+        System.out.println("----------------------------------------");
+    }
 }
