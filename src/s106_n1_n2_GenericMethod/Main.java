@@ -1,7 +1,7 @@
-package s106_n1_e01_02_GenericMethod;
+package s106_n1_n2_GenericMethod;
 
-import static s106_n1_e01_02_GenericMethod.GenericMethods.printAll;
-import static s106_n1_e01_02_GenericMethod.GenericMethods.printElements;
+import static s106_n1_n2_GenericMethod.GenericMethods.printAll;
+import static s106_n1_n2_GenericMethod.GenericMethods.printElements;
 
 public class Main {
 

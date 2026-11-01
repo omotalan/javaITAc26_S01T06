@@ -1,4 +1,4 @@
-package s106_n1_e01_02_GenericMethod;
+package s106_n1_n2_GenericMethod;
 
 public class NoGenericMethods {
     private String element1;
