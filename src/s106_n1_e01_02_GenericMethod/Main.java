@@ -35,5 +35,7 @@ public class Main {
         printElements(person.toString(), el2, intUno);
 
         printElements(el2, person.toString(), intUno);
+
+        printElements(intUno, person.toString(), el2);
     }
 }
